@@ -19,7 +19,7 @@ const Record = (props) => (
     </tr>
 );
 
-export default function RecordList() {
+export default function ProjectList() {
     const [records, setRecords] = useState([]);
 
     // This method fetches the records from the database.
